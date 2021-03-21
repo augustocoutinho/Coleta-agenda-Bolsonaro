@@ -20,5 +20,5 @@ agenda_bolsonaro <- function(data_inicio, data_fim){
 }
 
 
-## Roda a função
+## Rodar a função selecionando a data inicial e final
 agenda_bolsonaro("2021-03-19", "2021-03-15")
