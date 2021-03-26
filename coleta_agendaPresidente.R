@@ -1,3 +1,11 @@
+library(tidyverse)
+library(readxl)
+library(jsonlite)
+library(rvest)
+library(xml2)
+library(httr)
+library(curl)
+
 
 ## Função para coleta da agenda do Presidente Jair Bolsonaro
 agenda_bolsonaro <- function(data_inicio, data_fim){
